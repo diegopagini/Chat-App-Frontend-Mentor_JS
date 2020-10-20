@@ -1,0 +1,51 @@
+:root {
+  --pale-violet: hsl(276, 100%, 81%);
+  --moderate-violet: hsl(276, 55%, 52%);
+  --desaturated-dark-violet: hsl(271, 15%, 43%);
+  --grayish-blue: hsl(206, 6%, 79%);
+  --very-dark-desaturated-violet: hsl(271, 36%, 24%);
+  --dark-grayish-violet: hsl(270, 7%, 64%);
+  --light-magenta: hsl(293, 100%, 63%);
+  --light-violet: hsl(264, 100%, 61%);
+  --white: hsl(0, 0%, 100%);
+  --light-grayish-violet: hsl(270, 20%, 96%);
+  --very-dark-desaturated-violet: hsl(271, 36%, 24%);
+  --very-light-magenta: hsl(289, 100%, 72%);
+  --font: 'Rubik', sans-serif;
+}
+
+body {
+  font-family: var(--font);
+  height: 100vh;
+}
+
+.background{
+  position: absolute;
+  width: 50%;
+  height: 60vh;
+  background: linear-gradient(to bottom, var(--moderate-violet), var(--light-violet));
+  border-bottom-right-radius: 200px;
+}
+
+.col.s8.cell {
+  position: relative;
+  margin-left: 16.66%;
+  margin-top: 15%;
+  height: 60vh;
+  border: 10px solid var(--white);
+  border-radius: 35px;
+  background-color: var(--light-grayish-violet);
+  z-index: 999;
+}
+
+.col.s10.center {
+  margin-top: 10px;
+  margin-left: 8.33%;
+}
+
+.header {
+  height: 70px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  background: linear-gradient(to right, var(--moderate-violet), var(--light-magenta));
+}
