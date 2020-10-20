@@ -27,10 +27,10 @@ body {
   border-bottom-right-radius: 200px;
 }
 
-.col.s8.cell {
+.col.s9.cell {
   position: relative;
-  margin-left: 16.66%;
-  margin-top: 15%;
+  margin-left: 12.495%;
+  margin-top: 5%;
   height: 60vh;
   border: 10px solid var(--white);
   border-radius: 35px;
@@ -48,4 +48,73 @@ body {
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   background: linear-gradient(to right, var(--moderate-violet), var(--light-magenta));
+  display: flex;
+  justify-content: space-between;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.name-container {
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+}
+
+.name-container h5 {
+  font-size: 16px;
+  margin: 0;
+  margin-right: 20px;
+}
+
+.name-container p {
+  font-size: 12px;
+  margin: 0;
+  margin-right: 20px;
+  color: var(--light-grayish-violet);
+}
+
+.chat-container {
+  background-color: var(--grayish-blue);
+  width: auto;
+  max-width: 80%;
+  border-radius: 5px;
+  color: var(--light-violet);
+  font-size: 13px;
+}
+
+.chat-container p {
+  margin-left: 10px;
+}
+
+.chat-container-response {
+  width: auto;
+  border-radius: 5px;
+  font-size: 13px;
+  max-width: 80%;
+  margin-bottom: 10px;
+}
+
+.chat-container-response p {
+  margin: 0;
+  margin-left: 10px;
+}
+
+.chat-container-img {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  border-radius: 5px;
+
+  margin-bottom: 10px;
+}
+
+.chat-container-img img {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
 }

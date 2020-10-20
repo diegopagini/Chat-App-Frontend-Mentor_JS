@@ -10,6 +10,9 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
 
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
   <link rel="stylesheet" href="style.css">
 
   <title>Frontend Mentor Challenge</title>
@@ -18,14 +21,42 @@
 <body>
   <div class="background"></div>
   <div class="row">
-    <div class="col s8 m5 l4 cell z-depth-3">
+    <div class="col s9 m6 l3 xl2 cell z-depth-3">
       <div class="row">
-        <div class="col s12 header"></div>
+        <div class="col s12 header valign-wrapper">
+          <i class="material-icons" style="color:white">chevron_left</i>
+          <img src="./images/avatar.jpg" alt="avatar" class="avatar">
+          <div class="name-container">
+            <h5>Samuel Green</h5>
+            <p>Avilable to walk</p>
+          </div>
+          <i class="material-icons more right" style="color:white">more_vert</i>
+        </div>
+      </div>
+      <div class="chat-container z-depth-1">
+        <p>That sounds great. I'd be happy to discuss more.</p>
+      </div>
+      <div class="chat-container z-depth-1">
+        <p>Could you send over some pictures of your dog, please?</p>
+      </div>
+      <div class="chat-container-img z-depth-1 valign-wrapper right">
+        <img src="./images/dog-image-1.jpg" alt="dog">
+        <img src="./images/dog-image-2.jpg" alt="dog">
+        <img src="./images/dog-image-3.jpg" alt="dog">
+      </div>
+      <div class="chat-container-response z-depth-1 left-align right">
+        <p>Here are a few picutes. She's a happy girl!</p>
+      </div>
+      <div class="chat-container-response z-depth-1 left-align right">
+        <p>Can you make it?</p>
+      </div>
+      <div class="chat-container left z-depth-1">
+        <p>Could you send over some pictures of your dog, please?</p>
       </div>
     </div>
   </div>
   <div class="row">
-    <div class="col s10 m5 l4 center">
+    <div class="col s10 m6 l3 xl4 center">
       <h3>Simple booking</h3>
       <p>Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arragements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.</p>
     </div>
